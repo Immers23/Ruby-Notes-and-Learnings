@@ -5,10 +5,10 @@
 
 puts "What is your name?"
 
-answer = gets.chomp
+user = gets.chomp
 
-if answer.chars.first.downcase == 's'
-  puts answer
+if user.chars.first.downcase == 's'
+  puts user
 else
-  puts "Hi, " + answer
+  puts "Hi, #{user}"
 end
