@@ -11,9 +11,9 @@ move_counter = 1
 
 while true do
 
-puts "You are facing forward, you can type 'forward', 'left' or 'right'"
+  puts "You are facing forward, you can type 'forward', 'left' or 'right'"
 
-direction = gets.chomp
+  direction = gets.chomp
   if direction == 'right'
     puts 'you die from a goblin'
     break
@@ -22,9 +22,9 @@ direction = gets.chomp
     break
   else direction == 'forward'
     if move_counter == 2
-    puts "you win"
-    break
-  end
+      puts "you win"
+      break
+    end
     move_counter += 1
   end
 end
