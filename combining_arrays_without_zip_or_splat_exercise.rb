@@ -37,7 +37,7 @@ rangers = [
   'Mazara'
 ]
 
-def team_players(headers, astros, rangers)
+def team_players(headers, team1, team2)
 
   sorted_by_position = {}
 
@@ -48,8 +48,8 @@ def team_players(headers, astros, rangers)
     if sorted_by_position[pos] == nil
       sorted_by_position[pos] = []
     end
-    sorted_by_position[pos].push(astros[i])
-      sorted_by_position[pos].push(rangers[i])
+    sorted_by_position[pos].push(team1[i])
+      sorted_by_position[pos].push(team2[i])
 
     i += 1
   end
