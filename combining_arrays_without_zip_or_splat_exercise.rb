@@ -1,4 +1,5 @@
 # Wanted to see how i could combine arrays without using zip or splat
+# The final output is: [["1B", "Gurriel", "Fielder"], ["2B", "Altuve", "Andrus"], ["3B", "Bregman", "Odor"], ["SS", "Correa", "Beltre"], ["C", "Gattis", "Lucroy"], ["P", "Keuchel", "Darvish"], ["LF", "Beltran", "Gomez"], ["CF", "Springer", "Choo"], ["RF", "Reddick", "Mazara"]]
 
 headers = [
   '1B',
