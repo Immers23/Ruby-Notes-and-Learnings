@@ -52,7 +52,7 @@ def team_players(headers, team1, team2)
       sorted_by_position[pos].push(team2[i])
 
     i += 1
-  end
+  end  
 
   position_array = sorted_by_position.to_a
 
